@@ -4,7 +4,7 @@ A personal cloud portfolio website showcasing my transition from Service Desk An
 
 ## Live Website
 
-View the live portfolio website:
+View my portfolio website:
 
 http://mandy-cloud-portfolio-site.s3-website-us-east-1.amazonaws.com
 
