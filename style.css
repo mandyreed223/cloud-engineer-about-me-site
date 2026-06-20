@@ -128,3 +128,23 @@ footer a:hover {
     border: 5px solid #ff9900;
     margin-bottom: 20px;
 }
+.architecture-diagram {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.architecture-box {
+    background-color: #232f3e;
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 250px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.architecture-arrow {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff9900;
+}
