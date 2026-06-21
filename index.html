@@ -10,16 +10,12 @@
 <body>
 
     <header class="hero">
-        <img
-    src="images/mandy-profile.png"
-    alt="Mandy Reed"
-    class="profile-photo">
+        <img src="images/mandy-profile.png" alt="Mandy Reed" class="profile-photo">
+
         <h1>Mandy Reed</h1>
         <p>Service Desk Analyst Transitioning into Cloud Engineering</p>
 
-        <a href="#projects" class="button">
-            View My Projects
-        </a>
+        <a href="#projects" class="button">View My Projects</a>
     </header>
 
     <section class="about">
@@ -98,47 +94,23 @@
     </section>
 
     <section class="architecture">
+        <h2>Portfolio Architecture</h2>
 
-    <h2>Portfolio Architecture</h2>
+        <p>
+            This portfolio website is hosted on AWS using Amazon S3 Static Website Hosting
+            and Amazon CloudFront for HTTPS and content delivery.
+        </p>
 
-    <p>
-        This portfolio website is hosted on AWS using Amazon S3 Static Website Hosting
-        and Amazon CloudFront for HTTPS and content delivery.
-    </p>
-
-    <div class="architecture-diagram">
-
-        <div class="architecture-box">
-            GitHub
+        <div class="architecture-diagram">
+            <div class="architecture-box">GitHub</div>
+            <div class="architecture-arrow">↓</div>
+            <div class="architecture-box">Amazon S3</div>
+            <div class="architecture-arrow">↓</div>
+            <div class="architecture-box">Amazon CloudFront</div>
+            <div class="architecture-arrow">↓</div>
+            <div class="architecture-box">HTTPS Website</div>
         </div>
-
-        <div class="architecture-arrow">
-            ↓
-        </div>
-
-        <div class="architecture-box">
-            Amazon S3
-        </div>
-
-        <div class="architecture-arrow">
-            ↓
-        </div>
-
-        <div class="architecture-box">
-            Amazon CloudFront
-        </div>
-
-        <div class="architecture-arrow">
-            ↓
-        </div>
-
-        <div class="architecture-box">
-            HTTPS Website
-        </div>
-
-    </div>
-
-</section>
+    </section>
 
     <section id="projects" class="projects">
         <h2>Featured Cloud Projects</h2>
@@ -148,11 +120,8 @@
             <p>
                 Built a CI/CD-style workflow using GitHub, Amazon S3, and Amazon Bedrock.
             </p>
-
-            <a href="https://github.com/mandyreed223/prompt-deployment-pipeline"
-               target="_blank"
-               class="project-button">
-               View Repository
+            <a href="https://github.com/mandyreed223/prompt-deployment-pipeline" target="_blank" class="project-button">
+                View Repository
             </a>
         </div>
 
@@ -162,11 +131,8 @@
                 Created an AWS pipeline using Amazon Transcribe, Translate, Polly,
                 Lambda, and S3.
             </p>
-
-            <a href="https://github.com/mandyreed223/multilingual-audio-pipeline"
-               target="_blank"
-               class="project-button">
-               View Repository
+            <a href="https://github.com/mandyreed223/multilingual-audio-pipeline" target="_blank" class="project-button">
+                View Repository
             </a>
         </div>
 
@@ -176,11 +142,8 @@
                 Built an image-processing workflow using Amazon Rekognition,
                 DynamoDB, Lambda, and S3.
             </p>
-
-            <a href="https://github.com/mandyreed223/rekognition-image-labeling-pipeline"
-               target="_blank"
-               class="project-button">
-               View Repository
+            <a href="https://github.com/mandyreed223/rekognition-image-labeling-pipeline" target="_blank" class="project-button">
+                View Repository
             </a>
         </div>
 
@@ -190,11 +153,8 @@
                 Created a serverless text-to-speech solution using Amazon Polly,
                 Lambda, API Gateway, and S3.
             </p>
-
-            <a href="https://github.com/mandyreed223/polly_text_to_speech_pipeline"
-               target="_blank"
-               class="project-button">
-               View Repository
+            <a href="https://github.com/mandyreed223/polly_text_to_speech_pipeline" target="_blank" class="project-button">
+                View Repository
             </a>
         </div>
 
@@ -204,11 +164,8 @@
                 Built and deployed a static website using Amazon S3, CloudFront,
                 and CodePipeline.
             </p>
-
-            <a href="https://github.com/mandyreed223/static_website_pipeline_project"
-               target="_blank"
-               class="project-button">
-               View Repository
+            <a href="https://github.com/mandyreed223/static_website_pipeline_project" target="_blank" class="project-button">
+                View Repository
             </a>
         </div>
 
@@ -218,11 +175,50 @@
                 Created a GitHub Actions workflow that validates required repository
                 files and logs results to Amazon CloudWatch.
             </p>
+            <a href="https://github.com/mandyreed223/file_checker_project" target="_blank" class="project-button">
+                View Repository
+            </a>
+        </div>
+    </section>
 
-            <a href="https://github.com/mandyreed223/file_checker_project"
-               target="_blank"
-               class="project-button">
-               View Repository
+    <section class="writing">
+        <h2>Technical Writing</h2>
+
+        <p>
+            I document my cloud projects, lessons learned, and troubleshooting experiences
+            through Medium articles.
+        </p>
+
+        <div class="article-card">
+            <h3>So I Decided I Needed a Portfolio Website... What Could Possibly Go Wrong?</h3>
+            <p>
+                A story about building and deploying my cloud portfolio using Amazon S3,
+                CloudFront, GitHub, and a few lessons learned along the way.
+            </p>
+            <a href="https://medium.com/@mandymreed/so-i-decided-i-needed-a-portfolio-website-what-could-possibly-go-wrong-5a726e889864" target="_blank" class="project-button">
+                Read Article
+            </a>
+        </div>
+
+        <div class="article-card">
+            <h3>It Worked On My Machine... Until It Didn't</h3>
+            <p>
+                A Docker troubleshooting story about containers, local environments,
+                and learning why consistency matters.
+            </p>
+            <a href="https://medium.com/@mandymreed/it-worked-on-my-machine-until-it-didnt-3d2df233c995" target="_blank" class="project-button">
+                Read Article
+            </a>
+        </div>
+
+        <div class="article-card">
+            <h3>Teaching the Cloud to Speak Every Language</h3>
+            <p>
+                A walkthrough of a multilingual AWS pipeline using Transcribe, Translate,
+                Polly, Lambda, S3, and CloudWatch.
+            </p>
+            <a href="https://medium.com/@mandymreed/teaching-the-cloud-to-speak-every-language-df07b5764134" target="_blank" class="project-button">
+                Read Article
             </a>
         </div>
     </section>
@@ -230,23 +226,17 @@
     <footer>
         <p>
             GitHub:
-            <a href="https://github.com/mandyreed223" target="_blank">
-                github.com/mandyreed223
-            </a>
+            <a href="https://github.com/mandyreed223" target="_blank">github.com/mandyreed223</a>
         </p>
 
         <p>
             LinkedIn:
-            <a href="https://www.linkedin.com/in/mandymreed/" target="_blank">
-                linkedin.com/in/mandymreed
-            </a>
+            <a href="https://www.linkedin.com/in/mandymreed/" target="_blank">linkedin.com/in/mandymreed</a>
         </p>
 
         <p>
             Medium:
-            <a href="https://medium.com/@mandymreed" target="_blank">
-                medium.com/@mandymreed
-            </a>
+            <a href="https://medium.com/@mandymreed" target="_blank">medium.com/@mandymreed</a>
         </p>
     </footer>
 
